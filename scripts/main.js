@@ -12,3 +12,4 @@ var StorePicker = React.createClass({
 });
 
 ReactDOM.render(<StorePicker/>, document.getElementById('main'));
+//sdfsaf
