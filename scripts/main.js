@@ -6,7 +6,16 @@ var ReactDOM = require('react-dom');
 var StorePicker = React.createClass({
   render: function() {
     return (
-      <p>This is awesome. This rocks. I am loving atom and I am loving React</p>
+      <form className = "store-selector">
+        {/*Test Comment*/}
+        <h2>
+          Please Enter a Store Name
+        </h2>
+        <input type='text' ref='storeID' required>
+        </input>
+        <input type='Submit'>
+        </input>
+      </form>
     )
   }
 });
